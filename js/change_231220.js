@@ -20,7 +20,7 @@ function question(n, w) {
     let result;
     
     return result;
-} */
+}  */
 
 function question(n, w) {
     // 여기에서 코드 작성해주세요!
