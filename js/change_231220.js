@@ -45,5 +45,5 @@ function Test(question, conditions, results) {
         }
     }
 
-    console.log('테스트에 통과하셨습니다!');
+    console.log('테스트에 통과하셨습니다!'); 
 }
