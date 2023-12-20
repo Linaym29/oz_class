@@ -14,11 +14,19 @@
  * - 단, 배추값보다 돈을 덜 내지 않는다.
  */
 
+/*  문제 원문
 function question(n, w) {
     // 여기에서 코드 작성해주세요!
     let result;
     
     return result;
+} */
+
+function question(n, w) {
+    // 여기에서 코드 작성해주세요!
+   
+   let result;
+    return w - (3000 * n);
 }
 
 // 여기는 결과값 함수이므로 신경쓰지 않으셔도 됩니다!
