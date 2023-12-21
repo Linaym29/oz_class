@@ -20,7 +20,11 @@
 
 function question(candies, friends) {
     // 여기에서 코드 작성해주세요!
-    let result;
+    // candies를 friends로 나누고, 반환되는 값은 정수 여야 하므로 결과를 정수로 내림!
+    /* Math.floor 함수는 자바스크립트에서 어떤 실수(소수점이 있는 숫자)를 가장 
+    가까운 정수로 내림하여 반환할때 사용된다 */
+    
+    let result = Math.floor(candies / friends);
 
     return result;
 }
